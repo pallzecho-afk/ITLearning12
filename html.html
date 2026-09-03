@@ -1,0 +1,1242 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Belajar HTML | ITLearn</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/html.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         SIDEBAR
+    ========================== -->
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+                &lt;/&gt;
+            </div>
+
+            <div>
+                <h2>ITLearn</h2>
+                <p>Belajar Dunia IT</p>
+            </div>
+
+        </div>
+
+
+        <nav class="menu">
+
+            <p class="menu-title">MENU UTAMA</p>
+
+            <a href="dashboard.html" class="menu-item">
+                <span>⌂</span>
+                Dashboard
+            </a>
+
+            <a href="coding.html" class="menu-item active">
+                <span>💻</span>
+                Coding
+            </a>
+
+            <a href="quiz.html" class="menu-item">
+                <span>📝</span>
+                Quiz
+            </a>
+
+
+            <p class="menu-title second-title">BAHASA PEMROGRAMAN</p>
+
+            <a href="html.html" class="menu-item active-language">
+                <span>🌐</span>
+                HTML
+            </a>
+
+            <a href="css.html" class="menu-item">
+                <span>🎨</span>
+                CSS
+            </a>
+
+            <a href="javascript.html" class="menu-item">
+                <span>⚡</span>
+                JavaScript
+            </a>
+
+            <a href="python.html" class="menu-item">
+                <span>🐍</span>
+                Python
+            </a>
+
+            <a href="java.html" class="menu-item">
+                <span>☕</span>
+                Java
+            </a>
+
+            <a href="c.html" class="menu-item">
+                <span>🔷</span>
+                C
+            </a>
+
+            <a href="cpp.html" class="menu-item">
+                <span>➕</span>
+                C++
+            </a>
+
+            <a href="php.html" class="menu-item">
+                <span>🐘</span>
+                PHP
+            </a>
+
+            <a href="sql.html" class="menu-item">
+                <span>🗄️</span>
+                SQL
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+            <p>© 2026 ITLearn</p>
+        </div>
+
+    </aside>
+
+
+    <!-- =========================
+         MAIN CONTENT
+    ========================== -->
+
+    <main class="main-content">
+
+
+        <!-- TOPBAR -->
+        <header class="topbar">
+
+            <div>
+                <p class="page-small-title">
+                    BELAJAR WEB DEVELOPMENT
+                </p>
+
+                <h1>HTML</h1>
+            </div>
+
+
+            <a href="coding.html" class="back-btn">
+                ← Kembali
+            </a>
+
+        </header>
+
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
+        <section class="language-hero">
+
+            <div class="hero-text">
+
+                <div class="language-badge">
+                    🌐 HTML
+                </div>
+
+                <h2>
+                    Mulai Belajar
+                    <br>
+                    HTML dari Dasar
+                </h2>
+
+                <p>
+                    HTML adalah bahasa dasar yang digunakan untuk
+                    membuat struktur sebuah website. Pelajari
+                    elemen, tag, teks, gambar, link, form,
+                    tabel, dan masih banyak lagi.
+                </p>
+
+                <a href="#dasar" class="start-btn">
+                    Mulai Belajar ↓
+                </a>
+
+            </div>
+
+
+            <!-- LOGO HTML -->
+
+            <div class="hero-logo">
+
+                <!--
+                GANTI PATH JIKA NAMA FILE
+                LOGO HTML KAMU BERBEDA
+                -->
+
+                <img src="assets/logo/html.png"
+                    alt="Logo HTML">
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LEVEL 1
+        ========================== -->
+
+        <div class="level-title" id="dasar">
+
+            <span>🟢</span>
+
+            <div>
+                <p>LEVEL 1</p>
+                <h2>HTML Dasar</h2>
+            </div>
+
+        </div>
+
+
+        <!-- MATERI 01 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>01</span>
+
+                <div>
+                    <p>PENGENALAN</p>
+                    <h2>Apa Itu HTML?</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    HTML merupakan singkatan dari
+                    <strong>HyperText Markup Language</strong>.
+                    HTML digunakan untuk membuat struktur
+                    dan isi sebuah halaman website.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 02 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>02</span>
+
+                <div>
+                    <p>DASAR</p>
+                    <h2>Struktur Dasar HTML</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    Sebuah halaman HTML biasanya memiliki
+                    struktur dasar seperti berikut.
+                </p>
+
+
+                <pre class="simple-code"><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;title&gt>Website Saya&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;h1&gt;Halo Dunia&lt;/h1&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 03 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>03</span>
+
+                <div>
+                    <p>DASAR</p>
+                    <h2>Tag HTML</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    Tag adalah bagian penting dalam HTML.
+                    Sebagian besar tag memiliki tag pembuka
+                    dan tag penutup.
+                </p>
+
+
+                <pre class="simple-code"><code>&lt;p&gt;
+
+Isi teks berada di sini
+
+&lt;/p&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 04 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>04</span>
+
+                <div>
+                    <p>TEXT</p>
+                    <h2>Heading</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    Heading digunakan untuk membuat judul
+                    atau subjudul pada halaman website.
+                </p>
+
+
+                <pre class="simple-code"><code>&lt;h1&gt;Heading 1&lt;/h1&gt;
+&lt;h2&gt;Heading 2&lt;/h2&gt;
+&lt;h3&gt;Heading 3&lt;/h3&gt;
+&lt;h4&gt;Heading 4&lt;/h4&gt;
+&lt;h5&gt;Heading 5&lt;/h5&gt;
+&lt;h6&gt;Heading 6&lt;/h6&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 05 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>05</span>
+
+                <div>
+                    <p>TEXT</p>
+                    <h2>Paragraph</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    Tag paragraph digunakan untuk membuat
+                    sebuah paragraf.
+                </p>
+
+
+                <pre class="simple-code"><code>&lt;p&gt;
+
+Ini adalah sebuah paragraf.
+
+&lt;/p&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 06 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>06</span>
+
+                <div>
+                    <p>TEXT</p>
+                    <h2>Formatting Text</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <div class="tag-grid">
+
+                    <div class="tag-card">
+                        <code>&lt;strong&gt;</code>
+                        <p>Membuat teks penting</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>&lt;b&gt;</code>
+                        <p>Membuat teks tebal</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>&lt;i&gt;</code>
+                        <p>Membuat teks miring</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>&lt;u&gt;</code>
+                        <p>Membuat teks bergaris bawah</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 07 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>07</span>
+
+                <div>
+                    <p>LINK</p>
+                    <h2>Hyperlink</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    Tag <strong>a</strong> digunakan
+                    untuk membuat link.
+                </p>
+
+
+                <pre class="simple-code"><code>&lt;a href="https://google.com"&gt;
+
+Google
+
+&lt;/a&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 08 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>08</span>
+
+                <div>
+                    <p>IMAGE</p>
+                    <h2>Menampilkan Gambar</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    Tag img digunakan untuk menampilkan
+                    gambar pada website.
+                </p>
+
+
+                <pre class="simple-code"><code>&lt;img
+src="gambar.jpg"
+alt="Deskripsi Gambar"&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 09 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>09</span>
+
+                <div>
+                    <p>LIST</p>
+                    <h2>Ordered List</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    Ordered List digunakan untuk membuat
+                    daftar yang memiliki nomor.
+                </p>
+
+
+                <pre class="simple-code"><code>&lt;ol&gt;
+
+    &lt;li&gt;HTML&lt;/li&gt;
+    &lt;li&gt;CSS&lt;/li&gt;
+    &lt;li&gt;JavaScript&lt;/li&gt;
+
+&lt;/ol&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 10 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>10</span>
+
+                <div>
+                    <p>LIST</p>
+                    <h2>Unordered List</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>&lt;ul&gt;
+
+    &lt;li&gt;HTML&lt;/li&gt;
+    &lt;li&gt;CSS&lt;/li&gt;
+    &lt;li&gt;JavaScript&lt;/li&gt;
+
+&lt;/ul&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LEVEL 2
+        ========================== -->
+
+        <div class="level-title">
+
+            <span>🔵</span>
+
+            <div>
+                <p>LEVEL 2</p>
+                <h2>HTML Menengah</h2>
+            </div>
+
+        </div>
+
+
+        <!-- MATERI 11 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>11</span>
+
+                <div>
+                    <p>CONTAINER</p>
+                    <h2>div</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    Tag div digunakan sebagai wadah
+                    atau container untuk mengelompokkan
+                    elemen HTML.
+                </p>
+
+
+                <pre class="simple-code"><code>&lt;div&gt;
+
+    &lt;h1&gt;Judul&lt;/h1&gt;
+    &lt;p&gt;Isi konten&lt;/p&gt;
+
+&lt;/div&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 12 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>12</span>
+
+                <div>
+                    <p>CONTAINER</p>
+                    <h2>span</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>&lt;p&gt;
+
+Halo
+&lt;span&gt;Dunia&lt;/span&gt;
+
+&lt;/p&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 13 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>13</span>
+
+                <div>
+                    <p>TABLE</p>
+                    <h2>Membuat Tabel</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>&lt;table&gt;
+
+    &lt;tr&gt;
+        &lt;th&gt;Nama&lt;/th&gt;
+        &lt;th&gt;Umur&lt;/th&gt;
+    &lt;/tr&gt;
+
+    &lt;tr&gt;
+        &lt;td&gt;Opal&lt;/td&gt;
+        &lt;td&gt;17&lt;/td&gt;
+    &lt;/tr&gt;
+
+&lt;/table&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 14 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>14</span>
+
+                <div>
+                    <p>FORM</p>
+                    <h2>Form HTML</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>&lt;form&gt;
+
+    &lt;label&gt;Nama&lt;/label&gt;
+
+    &lt;input
+    type="text"&gt;
+
+&lt;/form&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 15 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>15</span>
+
+                <div>
+                    <p>FORM</p>
+                    <h2>Input</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <div class="tag-grid">
+
+                    <div class="tag-card">
+                        <code>text</code>
+                        <p>Input teks</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>password</code>
+                        <p>Input password</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>email</code>
+                        <p>Input email</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>number</code>
+                        <p>Input angka</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 16 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>16</span>
+
+                <div>
+                    <p>FORM</p>
+                    <h2>Button</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>&lt;button&gt;
+
+Klik Saya
+
+&lt;/button&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 17 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>17</span>
+
+                <div>
+                    <p>MEDIA</p>
+                    <h2>Audio</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>&lt;audio controls&gt;
+
+    &lt;source
+    src="lagu.mp3"&gt;
+
+&lt;/audio&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 18 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>18</span>
+
+                <div>
+                    <p>MEDIA</p>
+                    <h2>Video</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>&lt;video controls&gt;
+
+    &lt;source
+    src="video.mp4"&gt;
+
+&lt;/video&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             LEVEL 3
+        ========================== -->
+
+        <div class="level-title">
+
+            <span>🟣</span>
+
+            <div>
+                <p>LEVEL 3</p>
+                <h2>HTML Modern</h2>
+            </div>
+
+        </div>
+
+
+        <!-- MATERI 19 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>19</span>
+
+                <div>
+                    <p>SEMANTIC</p>
+                    <h2>Semantic HTML</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    Semantic HTML menggunakan tag yang
+                    memiliki arti sesuai dengan isi kontennya.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 20 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>20</span>
+
+                <div>
+                    <p>SEMANTIC</p>
+                    <h2>header dan nav</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>&lt;header&gt;
+
+    &lt;nav&gt;
+
+        Menu Website
+
+    &lt;/nav&gt;
+
+&lt;/header&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 21 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>21</span>
+
+                <div>
+                    <p>SEMANTIC</p>
+                    <h2>main dan section</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>&lt;main&gt;
+
+    &lt;section&gt;
+
+        Konten Website
+
+    &lt;/section&gt;
+
+&lt;/main&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 22 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>22</span>
+
+                <div>
+                    <p>SEMANTIC</p>
+                    <h2>article</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>&lt;article&gt;
+
+    &lt;h2&gt;Judul Artikel&lt;/h2&gt;
+
+    &lt;p&gt;
+        Isi artikel.
+    &lt;/p&gt;
+
+&lt;/article&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- MATERI 23 -->
+
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>23</span>
+
+                <div>
+                    <p>SEMANTIC</p>
+                    <h2>footer</h2>
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>&lt;footer&gt;
+
+    © 2026 Website Saya
+
+&lt;/footer&gt;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             PROJECT
+        ========================== -->
+
+        <section class="project-section">
+
+            <div class="level-title project-title">
+
+                <span>🚀</span>
+
+                <div>
+                    <p>PROJECT</p>
+                    <h2>Latihan HTML</h2>
+                </div>
+
+            </div>
+
+
+            <div class="project-grid">
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        24
+                    </div>
+
+                    <span class="project-icon">
+                        🪪
+                    </span>
+
+                    <h3>Profil Sederhana</h3>
+
+                    <p>
+                        Buat halaman profil menggunakan
+                        heading, paragraf dan gambar.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>Basic</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        25
+                    </div>
+
+                    <span class="project-icon">
+                        📰
+                    </span>
+
+                    <h3>Website Artikel</h3>
+
+                    <p>
+                        Buat halaman artikel menggunakan
+                        semantic HTML.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Article</span>
+                        <span>Semantic</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        26
+                    </div>
+
+                    <span class="project-icon">
+                        📋
+                    </span>
+
+                    <h3>Form Pendaftaran</h3>
+
+                    <p>
+                        Buat form sederhana untuk
+                        pendaftaran pengguna.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Form</span>
+                        <span>Input</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        27
+                    </div>
+
+                    <span class="project-icon">
+                        🌐
+                    </span>
+
+                    <h3>Website Pertama</h3>
+
+                    <p>
+                        Gabungkan semua materi HTML
+                        dalam satu website sederhana.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>Project</span>
+                    </div>
+
+                </article>
+
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             QUIZ
+        ========================== -->
+
+        <section class="practice-section">
+
+            <div class="practice-card">
+
+                <div>
+
+                    <p>UJI KEMAMPUAN</p>
+
+                    <h2>
+                        Sudah siap menguji HTML?
+                    </h2>
+
+                    <span>
+                        Coba quiz untuk mengetahui
+                        kemampuanmu.
+                    </span>
+
+                </div>
+
+
+                <a href="quiz.html" class="practice-btn">
+                    Mulai Quiz →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             NEXT
+        ========================== -->
+
+        <section class="next-section">
+
+            <p>MATERI SELANJUTNYA</p>
+
+
+            <a href="css.html">
+
+                <div>
+
+                    <span>🎨</span>
+
+                    <div>
+
+                        <h3>CSS</h3>
+
+                        <p>
+                            Pelajari cara mempercantik
+                            tampilan website.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <strong>→</strong>
+
+            </a>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <p>
+                © 2026 ITLearn • Belajar Dunia IT
+            </p>
+
+        </footer>
+
+
+    </main>
+
+</body>
+
+</html>

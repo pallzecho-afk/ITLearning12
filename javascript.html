@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Belajar JavaScript | ITLearn</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/javascript.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+            <div class="logo-icon">&lt;/&gt;</div>
+
+            <div>
+                <h2>ITLearn</h2>
+                <p>Belajar Dunia IT</p>
+            </div>
+        </div>
+
+        <nav class="menu">
+
+            <p class="menu-title">MENU UTAMA</p>
+
+            <a href="dashboard.html" class="menu-item">
+                <span>⌂</span>
+                Dashboard
+            </a>
+
+            <a href="coding.html" class="menu-item active">
+                <span>💻</span>
+                Coding
+            </a>
+
+            <a href="quiz.html" class="menu-item">
+                <span>📝</span>
+                Quiz
+            </a>
+
+
+            <p class="menu-title second-title">
+                BAHASA PEMROGRAMAN
+            </p>
+
+            <a href="html.html" class="menu-item">
+                <span>🌐</span>
+                HTML
+            </a>
+
+            <a href="css.html" class="menu-item">
+                <span>🎨</span>
+                CSS
+            </a>
+
+            <a href="javascript.html"
+                class="menu-item active-language">
+                <span>⚡</span>
+                JavaScript
+            </a>
+
+            <a href="python.html" class="menu-item">
+                <span>🐍</span>
+                Python
+            </a>
+
+            <a href="java.html" class="menu-item">
+                <span>☕</span>
+                Java
+            </a>
+
+            <a href="c.html" class="menu-item">
+                <span>🔷</span>
+                C
+            </a>
+
+            <a href="cpp.html" class="menu-item">
+                <span>➕</span>
+                C++
+            </a>
+
+            <a href="php.html" class="menu-item">
+                <span>🐘</span>
+                PHP
+            </a>
+
+            <a href="sql.html" class="menu-item">
+                <span>🗄️</span>
+                SQL
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+            <p>© 2026 ITLearn</p>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+    <main class="main-content">
+
+
+        <!-- TOPBAR -->
+        <header class="topbar">
+
+            <div>
+                <p class="page-small-title">
+                    BELAJAR WEB DEVELOPMENT
+                </p>
+
+                <h1>JavaScript</h1>
+            </div>
+
+            <a href="coding.html" class="back-btn">
+                ← Kembali
+            </a>
+
+        </header>
+
+
+        <!-- HERO -->
+        <section class="language-hero">
+
+            <div class="hero-text">
+
+                <div class="language-badge">
+                    ⚡ JavaScript
+                </div>
+
+                <h2>
+                    Mulai Belajar
+                    <br>
+                    JavaScript dari Dasar
+                </h2>
+
+                <p>
+                    JavaScript digunakan untuk membuat website
+                    menjadi lebih interaktif dan dinamis.
+                    Kamu dapat membuat tombol, animasi,
+                    perhitungan, dan berbagai fitur lainnya.
+                </p>
+
+                <a href="#dasar" class="start-btn">
+                    Mulai Belajar ↓
+                </a>
+
+            </div>
+
+
+            <!-- LOGO JAVASCRIPT -->
+            <div class="hero-logo">
+
+                <!--
+                    Pastikan logo JavaScript kamu
+                    berada di:
+
+                    assets/logo/javascript.png
+                -->
+
+                <img
+                    src="assets/logo/javascript.png"
+                    alt="Logo JavaScript">
+
+            </div>
+
+        </section>
+
+
+        <!-- LEVEL 1 -->
+        <div class="level-title" id="dasar">
+
+            <span>🟢</span>
+
+            <div>
+                <p>LEVEL 1</p>
+                <h2>JavaScript Dasar</h2>
+            </div>
+
+        </div>
+
+
+        <!-- 01 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>01</span>
+
+                <div>
+                    <p>PENGENALAN</p>
+                    <h2>Apa Itu JavaScript?</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    JavaScript adalah bahasa pemrograman
+                    yang sering digunakan untuk membuat
+                    halaman website menjadi interaktif.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- 02 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>02</span>
+
+                <div>
+                    <p>DASAR</p>
+                    <h2>Menampilkan Output</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    Salah satu cara sederhana untuk
+                    menampilkan informasi adalah menggunakan
+                    <strong>console.log()</strong>.
+                </p>
+
+                <pre class="simple-code"><code>console.log("Halo Dunia");</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 03 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>03</span>
+
+                <div>
+                    <p>VARIABLE</p>
+                    <h2>Variabel</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    Variabel digunakan untuk menyimpan data.
+                </p>
+
+                <pre class="simple-code"><code>let nama = "Opal";
+
+console.log(nama);</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 04 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>04</span>
+
+                <div>
+                    <p>VARIABLE</p>
+                    <h2>let, const dan var</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <div class="tag-grid">
+
+                    <div class="tag-card">
+                        <code>let</code>
+                        <p>
+                            Variabel yang nilainya
+                            dapat berubah.
+                        </p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>const</code>
+                        <p>
+                            Variabel dengan nilai
+                            yang tetap.
+                        </p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>var</code>
+                        <p>
+                            Cara lama untuk
+                            membuat variabel.
+                        </p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 05 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>05</span>
+
+                <div>
+                    <p>DATA TYPE</p>
+                    <h2>Tipe Data</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>let nama = "Opal";
+let umur = 17;
+let aktif = true;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 06 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>06</span>
+
+                <div>
+                    <p>OPERATOR</p>
+                    <h2>Operator Matematika</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>let angka1 = 10;
+let angka2 = 5;
+
+let hasil = angka1 + angka2;
+
+console.log(hasil);</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 07 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>07</span>
+
+                <div>
+                    <p>CONDITION</p>
+                    <h2>if dan else</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>let umur = 17;
+
+if (umur >= 17) {
+
+    console.log("Boleh");
+
+} else {
+
+    console.log("Belum boleh");
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 08 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>08</span>
+
+                <div>
+                    <p>FUNCTION</p>
+                    <h2>Function</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>function salam() {
+
+    console.log("Halo!");
+
+}
+
+salam();</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 09 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>09</span>
+
+                <div>
+                    <p>FUNCTION</p>
+                    <h2>Parameter</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>function salam(nama) {
+
+    console.log("Halo " + nama);
+
+}
+
+salam("Opal");</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 10 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>10</span>
+
+                <div>
+                    <p>ARRAY</p>
+                    <h2>Array</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>let bahasa = [
+
+    "HTML",
+    "CSS",
+    "JavaScript"
+
+];
+
+console.log(bahasa);</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEVEL 2 -->
+        <div class="level-title">
+
+            <span>🔵</span>
+
+            <div>
+                <p>LEVEL 2</p>
+                <h2>JavaScript Menengah</h2>
+            </div>
+
+        </div>
+
+
+        <!-- 11 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>11</span>
+
+                <div>
+                    <p>LOOP</p>
+                    <h2>for Loop</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>for (let i = 1; i <= 5; i++) {
+
+    console.log(i);
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 12 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>12</span>
+
+                <div>
+                    <p>LOOP</p>
+                    <h2>while Loop</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>let angka = 1;
+
+while (angka <= 5) {
+
+    console.log(angka);
+
+    angka++;
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 13 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>13</span>
+
+                <div>
+                    <p>OBJECT</p>
+                    <h2>Object</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>let user = {
+
+    nama: "Opal",
+    umur: 17
+
+};
+
+console.log(user.nama);</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 14 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>14</span>
+
+                <div>
+                    <p>DOM</p>
+                    <h2>Apa Itu DOM?</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    DOM atau Document Object Model
+                    memungkinkan JavaScript berinteraksi
+                    dengan elemen HTML.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- 15 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>15</span>
+
+                <div>
+                    <p>DOM</p>
+                    <h2>getElementById</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>let judul =
+document.getElementById("judul");</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 16 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>16</span>
+
+                <div>
+                    <p>DOM</p>
+                    <h2>Mengubah Teks</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>judul.innerHTML =
+"Halo Dunia";</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 17 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>17</span>
+
+                <div>
+                    <p>EVENT</p>
+                    <h2>Event Click</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>button.addEventListener(
+"click",
+
+function () {
+
+    alert("Tombol diklik!");
+
+});</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEVEL 3 -->
+        <div class="level-title">
+
+            <span>🟣</span>
+
+            <div>
+                <p>LEVEL 3</p>
+                <h2>JavaScript Modern</h2>
+            </div>
+
+        </div>
+
+
+        <!-- 18 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>18</span>
+
+                <div>
+                    <p>ES6</p>
+                    <h2>Arrow Function</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>const salam = () => {
+
+    console.log("Halo!");
+
+};
+
+salam();</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 19 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>19</span>
+
+                <div>
+                    <p>ES6</p>
+                    <h2>Template Literal</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>let nama = "Opal";
+
+console.log(
+`Halo ${nama}`
+);</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 20 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>20</span>
+
+                <div>
+                    <p>ASYNC</p>
+                    <h2>Async JavaScript</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    JavaScript juga dapat menjalankan
+                    proses asynchronous menggunakan
+                    Promise dan async/await.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT -->
+        <section class="project-section">
+
+            <div class="level-title project-title">
+
+                <span>🚀</span>
+
+                <div>
+                    <p>PROJECT</p>
+                    <h2>Latihan JavaScript</h2>
+                </div>
+
+            </div>
+
+
+            <div class="project-grid">
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        21
+                    </div>
+
+                    <span class="project-icon">
+                        🔢
+                    </span>
+
+                    <h3>Kalkulator</h3>
+
+                    <p>
+                        Buat kalkulator sederhana
+                        menggunakan JavaScript.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Function</span>
+                        <span>Math</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        22
+                    </div>
+
+                    <span class="project-icon">
+                        🎨
+                    </span>
+
+                    <h3>Ganti Warna</h3>
+
+                    <p>
+                        Buat tombol untuk mengubah
+                        warna halaman.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>DOM</span>
+                        <span>Event</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        23
+                    </div>
+
+                    <span class="project-icon">
+                        📝
+                    </span>
+
+                    <h3>To Do List</h3>
+
+                    <p>
+                        Buat daftar kegiatan sederhana.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Array</span>
+                        <span>DOM</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        24
+                    </div>
+
+                    <span class="project-icon">
+                        🎮
+                    </span>
+
+                    <h3>Game Sederhana</h3>
+
+                    <p>
+                        Buat game sederhana menggunakan
+                        JavaScript.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Game</span>
+                        <span>JavaScript</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUIZ -->
+        <section class="practice-section">
+
+            <div class="practice-card">
+
+                <div>
+
+                    <p>UJI KEMAMPUAN</p>
+
+                    <h2>
+                        Sudah siap menguji JavaScript?
+                    </h2>
+
+                    <span>
+                        Coba quiz untuk mengetahui
+                        kemampuanmu.
+                    </span>
+
+                </div>
+
+
+                <a href="quiz.html" class="practice-btn">
+                    Mulai Quiz →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- NEXT -->
+        <section class="next-section">
+
+            <p>MATERI SELANJUTNYA</p>
+
+            <a href="python.html">
+
+                <div>
+
+                    <span>🐍</span>
+
+                    <div>
+
+                        <h3>Python</h3>
+
+                        <p>
+                            Pelajari bahasa pemrograman
+                            Python.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <strong>→</strong>
+
+            </a>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <p>
+                © 2026 ITLearn • Belajar Dunia IT
+            </p>
+
+        </footer>
+
+
+    </main>
+
+</body>
+
+</html>

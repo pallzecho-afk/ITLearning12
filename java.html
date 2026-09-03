@@ -1,0 +1,1023 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Belajar Java | ITLearn</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/java.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+            <div class="logo-icon">&lt;/&gt;</div>
+
+            <div>
+                <h2>ITLearn</h2>
+                <p>Belajar Dunia IT</p>
+            </div>
+        </div>
+
+        <nav class="menu">
+
+            <p class="menu-title">MENU UTAMA</p>
+
+            <a href="dashboard.html" class="menu-item">
+                <span>⌂</span>
+                Dashboard
+            </a>
+
+            <a href="coding.html" class="menu-item active">
+                <span>💻</span>
+                Coding
+            </a>
+
+            <a href="quiz.html" class="menu-item">
+                <span>📝</span>
+                Quiz
+            </a>
+
+
+            <p class="menu-title second-title">
+                BAHASA PEMROGRAMAN
+            </p>
+
+            <a href="html.html" class="menu-item">
+                <span>🌐</span>
+                HTML
+            </a>
+
+            <a href="css.html" class="menu-item">
+                <span>🎨</span>
+                CSS
+            </a>
+
+            <a href="javascript.html" class="menu-item">
+                <span>⚡</span>
+                JavaScript
+            </a>
+
+            <a href="python.html" class="menu-item">
+                <span>🐍</span>
+                Python
+            </a>
+
+            <a href="java.html" class="menu-item active-language">
+                <span>☕</span>
+                Java
+            </a>
+
+            <a href="c.html" class="menu-item">
+                <span>🔷</span>
+                C
+            </a>
+
+            <a href="cpp.html" class="menu-item">
+                <span>➕</span>
+                C++
+            </a>
+
+            <a href="php.html" class="menu-item">
+                <span>🐘</span>
+                PHP
+            </a>
+
+            <a href="sql.html" class="menu-item">
+                <span>🗄️</span>
+                SQL
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+            <p>© 2026 ITLearn</p>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+
+        <!-- TOPBAR -->
+        <header class="topbar">
+
+            <div>
+                <p class="page-small-title">
+                    BELAJAR PEMROGRAMAN
+                </p>
+
+                <h1>Java</h1>
+            </div>
+
+            <a href="coding.html" class="back-btn">
+                ← Kembali
+            </a>
+
+        </header>
+
+
+        <!-- HERO -->
+        <section class="language-hero">
+
+            <div class="hero-text">
+
+                <div class="language-badge">
+                    ☕ Java
+                </div>
+
+                <h2>
+                    Mulai Belajar
+                    <br>
+                    Java dari Dasar
+                </h2>
+
+                <p>
+                    Java adalah bahasa pemrograman yang banyak digunakan
+                    untuk membuat aplikasi desktop, aplikasi enterprise,
+                    Android, dan berbagai sistem lainnya.
+                </p>
+
+                <a href="#dasar" class="start-btn">
+                    Mulai Belajar ↓
+                </a>
+
+            </div>
+
+
+            <!-- LOGO JAVA -->
+            <div class="hero-logo">
+
+                <img
+                    src="assets/logo/java.png"
+                    alt="Logo Java">
+
+            </div>
+
+        </section>
+
+
+        <!-- LEVEL 1 -->
+        <div class="level-title" id="dasar">
+
+            <span>🟢</span>
+
+            <div>
+                <p>LEVEL 1</p>
+                <h2>Java Dasar</h2>
+            </div>
+
+        </div>
+
+
+        <!-- 01 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>01</span>
+
+                <div>
+                    <p>PENGENALAN</p>
+                    <h2>Apa Itu Java?</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    Java adalah bahasa pemrograman yang populer dan
+                    digunakan untuk membuat berbagai jenis aplikasi.
+                    Java menggunakan konsep Object Oriented Programming
+                    atau OOP.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- 02 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>02</span>
+
+                <div>
+                    <p>PROGRAM PERTAMA</p>
+                    <h2>Hello World</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    Berikut adalah contoh program Java sederhana.
+                </p>
+
+                <pre class="simple-code"><code>public class Main {
+
+    public static void main(String[] args) {
+
+        System.out.println("Hello World");
+
+    }
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 03 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>03</span>
+
+                <div>
+                    <p>OUTPUT</p>
+                    <h2>System.out.println()</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    Digunakan untuk menampilkan teks ke layar.
+                </p>
+
+                <pre class="simple-code"><code>System.out.println("Halo Dunia");</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 04 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>04</span>
+
+                <div>
+                    <p>VARIABLE</p>
+                    <h2>Variabel</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    Variabel digunakan untuk menyimpan data.
+                </p>
+
+                <pre class="simple-code"><code>String nama = "Opal";
+
+System.out.println(nama);</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 05 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>05</span>
+
+                <div>
+                    <p>DATA TYPE</p>
+                    <h2>Tipe Data</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <div class="tag-grid">
+
+                    <div class="tag-card">
+                        <code>int</code>
+                        <p>Menyimpan bilangan bulat.</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>double</code>
+                        <p>Menyimpan bilangan desimal.</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>String</code>
+                        <p>Menyimpan teks.</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>boolean</code>
+                        <p>Menyimpan nilai true atau false.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 06 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>06</span>
+
+                <div>
+                    <p>OPERATOR</p>
+                    <h2>Operator Matematika</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>int angka1 = 10;
+int angka2 = 5;
+
+int hasil = angka1 + angka2;
+
+System.out.println(hasil);</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 07 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>07</span>
+
+                <div>
+                    <p>INPUT</p>
+                    <h2>Input dari User</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>import java.util.Scanner;
+
+Scanner input = new Scanner(System.in);
+
+System.out.print("Masukkan nama: ");
+
+String nama = input.nextLine();
+
+System.out.println("Halo " + nama);</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 08 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>08</span>
+
+                <div>
+                    <p>CONDITION</p>
+                    <h2>if dan else</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>int umur = 18;
+
+if (umur >= 18) {
+
+    System.out.println("Dewasa");
+
+} else {
+
+    System.out.println("Belum Dewasa");
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 09 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>09</span>
+
+                <div>
+                    <p>CONDITION</p>
+                    <h2>Switch</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>int hari = 1;
+
+switch (hari) {
+
+    case 1:
+        System.out.println("Senin");
+        break;
+
+    case 2:
+        System.out.println("Selasa");
+        break;
+
+    default:
+        System.out.println("Hari lainnya");
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEVEL 2 -->
+        <div class="level-title">
+
+            <span>🔵</span>
+
+            <div>
+                <p>LEVEL 2</p>
+                <h2>Java Menengah</h2>
+            </div>
+
+        </div>
+
+
+        <!-- 10 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>10</span>
+
+                <div>
+                    <p>LOOP</p>
+                    <h2>for Loop</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>for (int i = 1; i <= 5; i++) {
+
+    System.out.println(i);
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 11 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>11</span>
+
+                <div>
+                    <p>LOOP</p>
+                    <h2>while Loop</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>int angka = 1;
+
+while (angka <= 5) {
+
+    System.out.println(angka);
+
+    angka++;
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 12 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>12</span>
+
+                <div>
+                    <p>ARRAY</p>
+                    <h2>Array</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>String[] bahasa = {
+
+    "Java",
+    "Python",
+    "JavaScript"
+
+};
+
+System.out.println(bahasa[0]);</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 13 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>13</span>
+
+                <div>
+                    <p>METHOD</p>
+                    <h2>Method</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>public static void salam() {
+
+    System.out.println("Halo!");
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 14 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>14</span>
+
+                <div>
+                    <p>METHOD</p>
+                    <h2>Method dengan Parameter</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>public static void salam(String nama) {
+
+    System.out.println("Halo " + nama);
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 15 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>15</span>
+
+                <div>
+                    <p>METHOD</p>
+                    <h2>Return Value</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>public static int tambah(int a, int b) {
+
+    return a + b;
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEVEL 3 -->
+        <div class="level-title">
+
+            <span>🟣</span>
+
+            <div>
+                <p>LEVEL 3</p>
+                <h2>Object Oriented Programming</h2>
+            </div>
+
+        </div>
+
+
+        <!-- 16 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>16</span>
+
+                <div>
+                    <p>OOP</p>
+                    <h2>Class</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    Class adalah sebuah blueprint atau rancangan
+                    untuk membuat object.
+                </p>
+
+                <pre class="simple-code"><code>public class Mobil {
+
+    String warna;
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 17 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>17</span>
+
+                <div>
+                    <p>OOP</p>
+                    <h2>Object</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>Mobil mobilSaya = new Mobil();
+
+mobilSaya.warna = "Merah";</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 18 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>18</span>
+
+                <div>
+                    <p>OOP</p>
+                    <h2>Constructor</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>public class Mobil {
+
+    String warna;
+
+    Mobil(String warna) {
+
+        this.warna = warna;
+
+    }
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 19 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>19</span>
+
+                <div>
+                    <p>OOP</p>
+                    <h2>Inheritance</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>class Hewan {
+
+    void suara() {
+
+        System.out.println("Suara hewan");
+
+    }
+
+}
+
+class Kucing extends Hewan {
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 20 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>20</span>
+
+                <div>
+                    <p>OOP</p>
+                    <h2>Encapsulation</h2>
+                </div>
+
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    Encapsulation digunakan untuk membatasi
+                    akses langsung terhadap data menggunakan
+                    modifier seperti private dan public.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT -->
+        <section class="project-section">
+
+            <div class="level-title project-title">
+
+                <span>🚀</span>
+
+                <div>
+                    <p>PROJECT</p>
+                    <h2>Latihan Java</h2>
+                </div>
+
+            </div>
+
+
+            <div class="project-grid">
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        21
+                    </div>
+
+                    <span class="project-icon">
+                        🔢
+                    </span>
+
+                    <h3>Kalkulator</h3>
+
+                    <p>
+                        Buat program kalkulator sederhana
+                        menggunakan Java.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Operator</span>
+                        <span>Input</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        22
+                    </div>
+
+                    <span class="project-icon">
+                        👨‍🎓
+                    </span>
+
+                    <h3>Data Mahasiswa</h3>
+
+                    <p>
+                        Buat program untuk menyimpan
+                        data mahasiswa.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Class</span>
+                        <span>Object</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        23
+                    </div>
+
+                    <span class="project-icon">
+                        🏦
+                    </span>
+
+                    <h3>Bank Sederhana</h3>
+
+                    <p>
+                        Buat simulasi sederhana
+                        untuk saldo bank.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>OOP</span>
+                        <span>Method</span>
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        24
+                    </div>
+
+                    <span class="project-icon">
+                        🎮
+                    </span>
+
+                    <h3>Game Tebak Angka</h3>
+
+                    <p>
+                        Buat game sederhana
+                        menggunakan Java.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Loop</span>
+                        <span>Condition</span>
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- QUIZ -->
+        <section class="practice-section">
+
+            <div class="practice-card">
+
+                <div>
+
+                    <p>UJI KEMAMPUAN</p>
+
+                    <h2>
+                        Sudah siap menguji Java?
+                    </h2>
+
+                    <span>
+                        Coba quiz untuk mengetahui
+                        kemampuanmu.
+                    </span>
+
+                </div>
+
+                <a href="quiz.html" class="practice-btn">
+                    Mulai Quiz →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- NEXT -->
+        <section class="next-section">
+
+            <p>MATERI SELANJUTNYA</p>
+
+            <a href="c.html">
+
+                <div>
+
+                    <span>🔷</span>
+
+                    <div>
+
+                        <h3>C</h3>
+
+                        <p>
+                            Pelajari dasar bahasa
+                            pemrograman C.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <strong>→</strong>
+
+            </a>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <p>
+                © 2026 ITLearn • Belajar Dunia IT
+            </p>
+
+        </footer>
+
+    </main>
+
+</body>
+
+</html>

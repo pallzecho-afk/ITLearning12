@@ -1,0 +1,810 @@
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #f4f6f9;
+    color: #1f2937;
+}
+
+
+/* =========================
+   SIDEBAR
+========================= */
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 260px;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+    background: #101b35;
+    color: white;
+
+    overflow-y: auto;
+    z-index: 100;
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.sidebar-logo {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 25px 22px;
+
+    border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.logo-icon {
+    width: 45px;
+    height: 45px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #2563eb;
+
+    border-radius: 12px;
+
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.sidebar-logo h2 {
+    font-size: 20px;
+}
+
+.sidebar-logo p {
+    color: #94a3b8;
+    font-size: 11px;
+}
+
+
+/* =========================
+   MENU
+========================= */
+
+.menu {
+    padding: 20px 12px 30px;
+}
+
+.menu-title {
+    padding: 12px 10px 8px;
+
+    color: #64748b;
+
+    font-size: 10px;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+}
+
+.second-title {
+    margin-top: 15px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+
+    gap: 12px;
+
+    padding: 12px 13px;
+
+    margin-bottom: 4px;
+
+    color: #cbd5e1;
+
+    text-decoration: none;
+
+    border-radius: 10px;
+
+    font-size: 13px;
+
+    transition: 0.25s;
+}
+
+.menu-item span {
+    width: 22px;
+    text-align: center;
+}
+
+.menu-item:hover {
+    background: rgba(255, 255, 255, 0.08);
+    color: white;
+}
+
+.menu-item.active {
+    background: #2563eb;
+    color: white;
+    font-weight: 600;
+}
+
+
+/* =========================
+   SIDEBAR BOTTOM
+========================= */
+
+.sidebar-bottom {
+    margin-top: auto;
+
+    padding: 20px;
+
+    text-align: center;
+
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.sidebar-bottom p {
+    color: #64748b;
+    font-size: 11px;
+}
+
+
+/* =========================
+   MAIN
+========================= */
+
+.main-content {
+    margin-left: 260px;
+
+    min-height: 100vh;
+
+    padding: 35px 45px 0;
+}
+
+
+/* =========================
+   TOPBAR
+========================= */
+
+.topbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-bottom: 30px;
+}
+
+.page-small-title {
+    color: #64748b;
+
+    font-size: 10px;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+}
+
+.topbar h1 {
+    color: #172554;
+    font-size: 30px;
+}
+
+.back-btn {
+    padding: 10px 16px;
+
+    background: white;
+
+    color: #2563eb;
+
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    transition: 0.25s;
+}
+
+.back-btn:hover {
+    background: #2563eb;
+    color: white;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.shortcut-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 30px;
+
+    padding: 45px 55px;
+
+    margin-bottom: 55px;
+
+    background: linear-gradient(
+        135deg,
+        #7c3aed,
+        #2563eb
+    );
+
+    border-radius: 24px;
+
+    color: white;
+}
+
+.hero-content {
+    max-width: 650px;
+}
+
+.shortcut-badge {
+    display: inline-block;
+
+    padding: 7px 14px;
+
+    margin-bottom: 15px;
+
+    background: rgba(255, 255, 255, 0.18);
+
+    border-radius: 30px;
+
+    font-size: 12px;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+
+    line-height: 1.25;
+
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    color: #e0e7ff;
+
+    font-size: 14px;
+
+    line-height: 1.8;
+
+    margin-bottom: 25px;
+}
+
+.start-btn {
+    display: inline-block;
+
+    padding: 12px 20px;
+
+    background: white;
+
+    color: #2563eb;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    transition: 0.25s;
+}
+
+.start-btn:hover {
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   KEYBOARD VISUAL
+========================= */
+
+.keyboard-visual {
+    width: 300px;
+
+    padding: 20px;
+
+    background: rgba(255, 255, 255, 0.12);
+
+    border: 1px solid rgba(255, 255, 255, 0.2);
+
+    border-radius: 18px;
+}
+
+.keyboard-row {
+    display: flex;
+
+    gap: 8px;
+
+    margin-bottom: 8px;
+}
+
+.keyboard-row:last-child {
+    margin-bottom: 0;
+}
+
+.keyboard-row span {
+    flex: 1;
+
+    padding: 9px 5px;
+
+    background: rgba(255, 255, 255, 0.18);
+
+    border-radius: 6px;
+
+    text-align: center;
+
+    font-size: 11px;
+}
+
+.keyboard-row .big-key {
+    flex: 2.5;
+}
+
+
+/* =========================
+   CONTENT SECTION
+========================= */
+
+.content-section {
+    margin-bottom: 65px;
+}
+
+
+/* =========================
+   SECTION TITLE
+========================= */
+
+.section-title {
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+
+    margin-bottom: 25px;
+}
+
+.section-icon {
+    width: 55px;
+    height: 55px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 16px;
+
+    font-size: 25px;
+}
+
+.windows-icon {
+    background: #dbeafe;
+}
+
+.linux-icon {
+    background: #fef3c7;
+}
+
+.mac-icon {
+    background: #f3f4f6;
+}
+
+.word-icon {
+    background: #dbeafe;
+}
+
+.section-title p {
+    color: #64748b;
+
+    font-size: 10px;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+}
+
+.section-title h2 {
+    color: #172554;
+
+    font-size: 24px;
+}
+
+
+/* =========================
+   SHORTCUT GRID
+========================= */
+
+.shortcut-grid {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 18px;
+}
+
+
+/* =========================
+   SHORTCUT CARD
+========================= */
+
+.shortcut-card {
+    padding: 22px;
+
+    background: white;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 16px;
+
+    transition: 0.25s;
+}
+
+.shortcut-card:hover {
+    transform: translateY(-5px);
+
+    border-color: #a5b4fc;
+
+    box-shadow: 0 12px 25px rgba(15, 23, 42, 0.08);
+}
+
+
+/* KEYS */
+
+.keys {
+    display: flex;
+    align-items: center;
+
+    gap: 6px;
+
+    flex-wrap: wrap;
+
+    margin-bottom: 15px;
+}
+
+.keys span {
+    color: #94a3b8;
+
+    font-weight: 600;
+}
+
+kbd {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    min-width: 36px;
+
+    padding: 7px 10px;
+
+    background: #f1f5f9;
+
+    border: 1px solid #cbd5e1;
+
+    border-bottom: 3px solid #94a3b8;
+
+    border-radius: 7px;
+
+    color: #334155;
+
+    font-family: "Poppins", sans-serif;
+
+    font-size: 11px;
+    font-weight: 600;
+}
+
+
+/* CARD TEXT */
+
+.shortcut-card h3 {
+    color: #172554;
+
+    font-size: 16px;
+
+    margin-bottom: 6px;
+}
+
+.shortcut-card p {
+    color: #64748b;
+
+    font-size: 12px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================
+   TIPS
+========================= */
+
+.tips-section {
+    padding: 35px;
+
+    margin-bottom: 55px;
+
+    background: #fffbeb;
+
+    border-left: 5px solid #f59e0b;
+
+    border-radius: 18px;
+}
+
+.tips-section > div:first-child p {
+    color: #d97706;
+
+    font-size: 11px;
+    font-weight: 600;
+
+    margin-bottom: 5px;
+}
+
+.tips-section h2 {
+    color: #78350f;
+
+    font-size: 22px;
+
+    margin-bottom: 20px;
+}
+
+.tips-list {
+    display: grid;
+
+    grid-template-columns:
+        repeat(auto-fit, minmax(220px, 1fr));
+
+    gap: 12px;
+}
+
+.tips-list div {
+    padding: 15px;
+
+    background: white;
+
+    border-radius: 10px;
+
+    color: #64748b;
+
+    font-size: 13px;
+}
+
+
+/* =========================
+   QUIZ
+========================= */
+
+.quiz-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    gap: 25px;
+
+    padding: 35px 40px;
+
+    margin-bottom: 50px;
+
+    background: linear-gradient(
+        135deg,
+        #7c3aed,
+        #2563eb
+    );
+
+    color: white;
+
+    border-radius: 20px;
+}
+
+.quiz-content p {
+    color: #ddd6fe;
+
+    font-size: 10px;
+    font-weight: 600;
+
+    letter-spacing: 1px;
+}
+
+.quiz-content h2 {
+    font-size: 24px;
+
+    margin: 5px 0;
+}
+
+.quiz-content span {
+    color: #e0e7ff;
+
+    font-size: 13px;
+}
+
+.quiz-btn {
+    padding: 13px 22px;
+
+    background: white;
+
+    color: #2563eb;
+
+    border-radius: 10px;
+
+    text-decoration: none;
+
+    font-size: 13px;
+    font-weight: 600;
+
+    white-space: nowrap;
+
+    transition: 0.25s;
+}
+
+.quiz-btn:hover {
+    transform: translateY(-3px);
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    padding: 25px 0;
+
+    text-align: center;
+
+    border-top: 1px solid #e2e8f0;
+
+    color: #94a3b8;
+
+    font-size: 11px;
+}
+
+
+/* =========================
+   TABLET
+========================= */
+
+@media screen and (max-width: 900px) {
+
+    .sidebar {
+        width: 220px;
+    }
+
+    .main-content {
+        margin-left: 220px;
+
+        padding: 30px 25px 0;
+    }
+
+    .shortcut-hero {
+        padding: 35px;
+    }
+
+    .keyboard-visual {
+        width: 250px;
+    }
+
+    .hero-content h2 {
+        font-size: 30px;
+    }
+
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media screen and (max-width: 700px) {
+
+    .sidebar {
+        position: relative;
+
+        width: 100%;
+        height: auto;
+    }
+
+    .sidebar-bottom {
+        display: none;
+    }
+
+    .menu {
+        display: flex;
+
+        flex-wrap: nowrap;
+
+        overflow-x: auto;
+
+        gap: 5px;
+
+        padding: 15px;
+    }
+
+    .menu-title {
+        display: none;
+    }
+
+    .menu-item {
+        white-space: nowrap;
+
+        margin-bottom: 0;
+    }
+
+    .main-content {
+        margin-left: 0;
+
+        padding: 25px 16px 0;
+    }
+
+    .topbar {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        gap: 15px;
+    }
+
+    .shortcut-hero {
+        flex-direction: column;
+
+        align-items: flex-start;
+
+        padding: 30px 25px;
+    }
+
+    .keyboard-visual {
+        width: 100%;
+    }
+
+    .quiz-section {
+        flex-direction: column;
+
+        align-items: flex-start;
+    }
+
+    .quiz-btn {
+        width: 100%;
+
+        text-align: center;
+    }
+
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media screen and (max-width: 450px) {
+
+    .hero-content h2 {
+        font-size: 25px;
+    }
+
+    .section-title h2 {
+        font-size: 20px;
+    }
+
+    .shortcut-card {
+        padding: 18px;
+    }
+
+    .tips-section {
+        padding: 25px 20px;
+    }
+
+}

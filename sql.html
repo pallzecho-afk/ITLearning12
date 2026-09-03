@@ -1,0 +1,1133 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Belajar SQL | ITLearn</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/sql.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+                &lt;/&gt;
+            </div>
+
+            <div>
+                <h2>ITLearn</h2>
+                <p>Belajar Dunia IT</p>
+            </div>
+
+        </div>
+
+
+        <nav class="menu">
+
+            <p class="menu-title">MENU UTAMA</p>
+
+            <a href="dashboard.html" class="menu-item">
+                <span>⌂</span>
+                Dashboard
+            </a>
+
+            <a href="coding.html" class="menu-item active">
+                <span>💻</span>
+                Coding
+            </a>
+
+            <a href="quiz.html" class="menu-item">
+                <span>📝</span>
+                Quiz
+            </a>
+
+
+            <p class="menu-title second-title">
+                BAHASA PEMROGRAMAN
+            </p>
+
+
+            <a href="html.html" class="menu-item">
+                <span>🌐</span>
+                HTML
+            </a>
+
+            <a href="css.html" class="menu-item">
+                <span>🎨</span>
+                CSS
+            </a>
+
+            <a href="javascript.html" class="menu-item">
+                <span>⚡</span>
+                JavaScript
+            </a>
+
+            <a href="python.html" class="menu-item">
+                <span>🐍</span>
+                Python
+            </a>
+
+            <a href="java.html" class="menu-item">
+                <span>☕</span>
+                Java
+            </a>
+
+            <a href="c.html" class="menu-item">
+                <span>🔷</span>
+                C
+            </a>
+
+            <a href="cpp.html" class="menu-item">
+                <span>➕</span>
+                C++
+            </a>
+
+            <a href="php.html" class="menu-item">
+                <span>🐘</span>
+                PHP
+            </a>
+
+            <a href="sql.html" class="menu-item active-language">
+                <span>🗄️</span>
+                SQL
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+            <p>© 2026 ITLearn</p>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+
+        <!-- TOPBAR -->
+        <header class="topbar">
+
+            <div>
+
+                <p class="page-small-title">
+                    BELAJAR DATABASE
+                </p>
+
+                <h1>SQL</h1>
+
+            </div>
+
+
+            <a href="coding.html" class="back-btn">
+                ← Kembali
+            </a>
+
+        </header>
+
+
+        <!-- HERO -->
+        <section class="language-hero">
+
+            <div class="hero-text">
+
+                <div class="language-badge">
+                    🗄️ Database SQL
+                </div>
+
+
+                <h2>
+                    Belajar SQL<br>
+                    dari Dasar
+                </h2>
+
+
+                <p>
+                    SQL adalah bahasa yang digunakan untuk
+                    mengelola dan mengambil data dari database.
+                    SQL sangat penting dalam pengembangan
+                    website, aplikasi, dan sistem informasi.
+                </p>
+
+
+                <a href="#dasar" class="start-btn">
+                    Mulai Belajar ↓
+                </a>
+
+            </div>
+
+
+            <div class="hero-logo">
+
+                <img src="assets/logo/sql.png" alt="Logo SQL">
+
+            </div>
+
+        </section>
+
+
+        <!-- LEVEL 1 -->
+        <div class="level-title" id="dasar">
+
+            <span>🟢</span>
+
+            <div>
+
+                <p>LEVEL 1</p>
+
+                <h2>SQL Dasar</h2>
+
+            </div>
+
+        </div>
+
+
+        <!-- 01 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>01</span>
+
+                <div>
+
+                    <p>PENGENALAN</p>
+
+                    <h2>Apa Itu SQL?</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    SQL atau Structured Query Language adalah
+                    bahasa yang digunakan untuk berkomunikasi
+                    dengan database.
+                </p>
+
+                <p>
+                    Dengan SQL, kita dapat membuat database,
+                    menyimpan data, mengubah data, menghapus
+                    data, dan mengambil data.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- 02 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>02</span>
+
+                <div>
+
+                    <p>DASAR DATABASE</p>
+
+                    <h2>Database, Table, Row dan Column</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <div class="database-grid">
+
+                    <div class="database-item">
+                        <h3>Database</h3>
+                        <p>Kumpulan data yang terorganisir.</p>
+                    </div>
+
+                    <div class="database-item">
+                        <h3>Table</h3>
+                        <p>Tempat data disimpan dalam bentuk tabel.</p>
+                    </div>
+
+                    <div class="database-item">
+                        <h3>Row</h3>
+                        <p>Satu baris data dalam tabel.</p>
+                    </div>
+
+                    <div class="database-item">
+                        <h3>Column</h3>
+                        <p>Bagian kategori atau atribut data.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 03 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>03</span>
+
+                <div>
+
+                    <p>DATABASE</p>
+
+                    <h2>CREATE DATABASE</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    Perintah CREATE DATABASE digunakan
+                    untuk membuat database baru.
+                </p>
+
+
+                <pre class="simple-code"><code>CREATE DATABASE sekolah;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 04 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>04</span>
+
+                <div>
+
+                    <p>TABLE</p>
+
+                    <h2>CREATE TABLE</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>CREATE TABLE siswa (
+
+    id INT PRIMARY KEY,
+    nama VARCHAR(100),
+    kelas VARCHAR(20)
+
+);</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 05 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>05</span>
+
+                <div>
+
+                    <p>DATA</p>
+
+                    <h2>INSERT INTO</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    INSERT INTO digunakan untuk menambahkan
+                    data baru ke dalam tabel.
+                </p>
+
+
+                <pre class="simple-code"><code>INSERT INTO siswa
+
+(id, nama, kelas)
+
+VALUES
+
+(1, 'Opal', 'XII TKJ');</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 06 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>06</span>
+
+                <div>
+
+                    <p>QUERY</p>
+
+                    <h2>SELECT</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    SELECT digunakan untuk mengambil
+                    atau menampilkan data dari tabel.
+                </p>
+
+
+                <pre class="simple-code"><code>SELECT *
+
+FROM siswa;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 07 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>07</span>
+
+                <div>
+
+                    <p>FILTER</p>
+
+                    <h2>WHERE</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>SELECT *
+
+FROM siswa
+
+WHERE kelas = 'XII TKJ';</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 08 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>08</span>
+
+                <div>
+
+                    <p>SORTING</p>
+
+                    <h2>ORDER BY</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>SELECT *
+
+FROM siswa
+
+ORDER BY nama ASC;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEVEL 2 -->
+        <div class="level-title">
+
+            <span>🔵</span>
+
+            <div>
+
+                <p>LEVEL 2</p>
+
+                <h2>SQL Menengah</h2>
+
+            </div>
+
+        </div>
+
+
+        <!-- 09 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>09</span>
+
+                <div>
+
+                    <p>UPDATE</p>
+
+                    <h2>UPDATE Data</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>UPDATE siswa
+
+SET nama = 'Noval'
+
+WHERE id = 1;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 10 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>10</span>
+
+                <div>
+
+                    <p>DELETE</p>
+
+                    <h2>DELETE Data</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>DELETE FROM siswa
+
+WHERE id = 1;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 11 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>11</span>
+
+                <div>
+
+                    <p>LIMIT</p>
+
+                    <h2>LIMIT</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>SELECT *
+
+FROM siswa
+
+LIMIT 5;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 12 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>12</span>
+
+                <div>
+
+                    <p>FUNCTION</p>
+
+                    <h2>Aggregate Function</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <div class="tag-grid">
+
+                    <div class="tag-card">
+                        <code>COUNT()</code>
+                        <p>Menghitung jumlah data.</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>SUM()</code>
+                        <p>Menjumlahkan data angka.</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>AVG()</code>
+                        <p>Menghitung nilai rata-rata.</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>MAX()</code>
+                        <p>Mencari nilai terbesar.</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>MIN()</code>
+                        <p>Mencari nilai terkecil.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 13 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>13</span>
+
+                <div>
+
+                    <p>GROUPING</p>
+
+                    <h2>GROUP BY</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>SELECT kelas,
+
+COUNT(*)
+
+FROM siswa
+
+GROUP BY kelas;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 14 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>14</span>
+
+                <div>
+
+                    <p>FILTER</p>
+
+                    <h2>HAVING</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>SELECT kelas,
+
+COUNT(*)
+
+FROM siswa
+
+GROUP BY kelas
+
+HAVING COUNT(*) > 5;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 15 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>15</span>
+
+                <div>
+
+                    <p>JOIN</p>
+
+                    <h2>INNER JOIN</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    JOIN digunakan untuk menggabungkan
+                    data dari beberapa tabel.
+                </p>
+
+
+                <pre class="simple-code"><code>SELECT siswa.nama,
+
+kelas.nama_kelas
+
+FROM siswa
+
+INNER JOIN kelas
+
+ON siswa.id_kelas = kelas.id;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- LEVEL 3 -->
+        <div class="level-title">
+
+            <span>🟣</span>
+
+            <div>
+
+                <p>LEVEL 3</p>
+
+                <h2>SQL Lanjutan</h2>
+
+            </div>
+
+        </div>
+
+
+        <!-- 16 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>16</span>
+
+                <div>
+
+                    <p>KEY</p>
+
+                    <h2>Primary Key</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    Primary Key adalah kolom yang memiliki
+                    nilai unik untuk setiap data.
+                </p>
+
+
+                <pre class="simple-code"><code>CREATE TABLE siswa (
+
+    id INT PRIMARY KEY,
+
+    nama VARCHAR(100)
+
+);</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 17 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>17</span>
+
+                <div>
+
+                    <p>KEY</p>
+
+                    <h2>Foreign Key</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    Foreign Key digunakan untuk menghubungkan
+                    satu tabel dengan tabel lainnya.
+                </p>
+
+
+                <pre class="simple-code"><code>FOREIGN KEY
+
+(id_kelas)
+
+REFERENCES kelas(id);</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 18 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>18</span>
+
+                <div>
+
+                    <p>JOIN</p>
+
+                    <h2>LEFT JOIN</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <pre class="simple-code"><code>SELECT *
+
+FROM siswa
+
+LEFT JOIN kelas
+
+ON siswa.id_kelas = kelas.id;</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 19 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>19</span>
+
+                <div>
+
+                    <p>DATABASE</p>
+
+                    <h2>MySQL</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <p>
+                    MySQL adalah salah satu sistem database
+                    yang paling populer dan sering digunakan
+                    bersama PHP.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- 20 -->
+        <section class="content-section">
+
+            <div class="section-title">
+
+                <span>20</span>
+
+                <div>
+
+                    <p>BEST PRACTICE</p>
+
+                    <h2>Keamanan Database</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="content-card">
+
+                <ul class="security-list">
+
+                    <li>Gunakan password database yang kuat.</li>
+
+                    <li>Batasi akses pengguna database.</li>
+
+                    <li>Gunakan parameterized query.</li>
+
+                    <li>Lakukan backup database secara rutin.</li>
+
+                    <li>Jangan menyimpan password dalam bentuk teks biasa.</li>
+
+                </ul>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECT -->
+        <section class="project-section">
+
+
+            <div class="level-title project-title">
+
+                <span>🚀</span>
+
+                <div>
+
+                    <p>PROJECT</p>
+
+                    <h2>Latihan SQL</h2>
+
+                </div>
+
+            </div>
+
+
+            <div class="project-grid">
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        21
+                    </div>
+
+                    <span class="project-icon">
+                        👨‍🎓
+                    </span>
+
+                    <h3>Database Sekolah</h3>
+
+                    <p>
+                        Buat database siswa,
+                        kelas dan guru.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>CREATE</span>
+
+                        <span>SELECT</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        22
+                    </div>
+
+                    <span class="project-icon">
+                        🛒
+                    </span>
+
+                    <h3>Database Toko</h3>
+
+                    <p>
+                        Buat database produk
+                        dan data pembelian.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>INSERT</span>
+
+                        <span>JOIN</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        23
+                    </div>
+
+                    <span class="project-icon">
+                        📚
+                    </span>
+
+                    <h3>Perpustakaan</h3>
+
+                    <p>
+                        Buat sistem data buku
+                        dan peminjaman.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>TABLE</span>
+
+                        <span>FOREIGN KEY</span>
+
+                    </div>
+
+                </article>
+
+
+                <article class="project-card">
+
+                    <div class="project-number">
+                        24
+                    </div>
+
+                    <span class="project-icon">
+                        🔥
+                    </span>
+
+                    <h3>CRUD Database</h3>
+
+                    <p>
+                        Buat aplikasi CRUD
+                        menggunakan PHP dan SQL.
+                    </p>
+
+                    <div class="project-tags">
+
+                        <span>PHP</span>
+
+                        <span>SQL</span>
+
+                    </div>
+
+                </article>
+
+            </div>
+
+        </section>
+
+
+        <!-- PRACTICE -->
+        <section class="practice-section">
+
+            <div class="practice-card">
+
+                <div>
+
+                    <p>UJI KEMAMPUAN</p>
+
+                    <h2>
+                        Sudah siap menguji kemampuan SQL?
+                    </h2>
+
+                    <span>
+                        Coba quiz dan uji kemampuan database kamu.
+                    </span>
+
+                </div>
+
+
+                <a href="quiz.html" class="practice-btn">
+                    Mulai Quiz →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- FOOTER -->
+        <footer>
+
+            <p>
+                © 2026 ITLearn • Belajar Dunia IT
+            </p>
+
+        </footer>
+
+
+    </main>
+
+</body>
+
+</html>

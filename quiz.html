@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz | ITLearn</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+            <div class="logo-icon">&lt;/&gt;</div>
+
+            <div>
+                <h2>ITLearn</h2>
+                <p>Belajar Dunia IT</p>
+            </div>
+        </div>
+
+        <nav class="menu">
+
+            <p class="menu-title">MENU UTAMA</p>
+
+            <a href="dashboard.html" class="menu-item">
+                <span>⌂</span> Dashboard
+            </a>
+
+            <a href="coding.html" class="menu-item">
+                <span>💻</span> Coding
+            </a>
+
+            <a href="os.html" class="menu-item">
+                <span>🖥️</span> Operating System
+            </a>
+
+            <a href="shortcut.html" class="menu-item">
+                <span>⌨️</span> Shortcut
+            </a>
+
+            <a href="microsoft-word.html" class="menu-item">
+                <span>📝</span> Microsoft Word
+            </a>
+
+            <a href="quiz.html" class="menu-item active">
+                <span>🎯</span> Quiz
+            </a>
+
+        </nav>
+
+        <div class="sidebar-bottom">
+            <p>© 2026 ITLearn</p>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN -->
+    <main class="main-content">
+
+        <!-- QUIZ HOME -->
+        <section id="quizHome">
+
+            <div class="topbar">
+
+                <div>
+                    <p class="page-small-title">UJI PENGETAHUAN</p>
+                    <h1>ITLearn Quiz 🎯</h1>
+                </div>
+
+                <a href="dashboard.html" class="back-btn">
+                    ← Dashboard
+                </a>
+
+            </div>
+
+
+            <section class="quiz-hero">
+
+                <div class="hero-text">
+
+                    <div class="badge">
+                        🎓 1.000+ Bank Soal
+                    </div>
+
+                    <h2>
+                        Uji Pengetahuan<br>
+                        Dunia IT Kamu!
+                    </h2>
+
+                    <p>
+                        Pilih kategori dan jumlah soal.
+                        Setiap permainan akan mengambil
+                        soal secara acak dari bank soal ITLearn.
+                    </p>
+
+                </div>
+
+                <div class="hero-icon">
+                    🎯
+                </div>
+
+            </section>
+
+
+            <!-- CATEGORY -->
+            <section class="category-section">
+
+                <div class="section-heading">
+
+                    <div>
+                        <p>PILIH MATERI</p>
+                        <h2>Kategori Quiz</h2>
+                    </div>
+
+                </div>
+
+
+                <div class="category-grid">
+
+                    <button class="category-card selected" data-category="all">
+                        <div class="category-icon">🧠</div>
+
+                        <h3>Semua Materi</h3>
+
+                        <p>Campuran seluruh materi ITLearn.</p>
+                    </button>
+
+
+                    <button class="category-card" data-category="html">
+                        <div class="category-icon">🌐</div>
+
+                        <h3>HTML</h3>
+
+                        <p>Dasar struktur website.</p>
+                    </button>
+
+
+                    <button class="category-card" data-category="css">
+                        <div class="category-icon">🎨</div>
+
+                        <h3>CSS</h3>
+
+                        <p>Desain dan styling website.</p>
+                    </button>
+
+
+                    <button class="category-card" data-category="javascript">
+                        <div class="category-icon">⚡</div>
+
+                        <h3>JavaScript</h3>
+
+                        <p>Logika dan interaksi website.</p>
+                    </button>
+
+
+                    <button class="category-card" data-category="python">
+                        <div class="category-icon">🐍</div>
+
+                        <h3>Python</h3>
+
+                        <p>Dasar bahasa Python.</p>
+                    </button>
+
+
+                    <button class="category-card" data-category="java">
+                        <div class="category-icon">☕</div>
+
+                        <h3>Java</h3>
+
+                        <p>Dasar pemrograman Java.</p>
+                    </button>
+
+
+                    <button class="category-card" data-category="c">
+                        <div class="category-icon">🔵</div>
+
+                        <h3>C</h3>
+
+                        <p>Dasar bahasa C.</p>
+                    </button>
+
+
+                    <button class="category-card" data-category="cpp">
+                        <div class="category-icon">🟣</div>
+
+                        <h3>C++</h3>
+
+                        <p>Dasar bahasa C++.</p>
+                    </button>
+
+
+                    <button class="category-card" data-category="php">
+                        <div class="category-icon">🐘</div>
+
+                        <h3>PHP</h3>
+
+                        <p>Bahasa pemrograman web.</p>
+                    </button>
+
+
+                    <button class="category-card" data-category="sql">
+                        <div class="category-icon">🗄️</div>
+
+                        <h3>SQL</h3>
+
+                        <p>Database dan query.</p>
+                    </button>
+
+
+                    <button class="category-card" data-category="os">
+                        <div class="category-icon">🖥️</div>
+
+                        <h3>Operating System</h3>
+
+                        <p>Windows, Linux, dan Mac.</p>
+                    </button>
+
+
+                    <button class="category-card" data-category="shortcut">
+                        <div class="category-icon">⌨️</div>
+
+                        <h3>Shortcut</h3>
+
+                        <p>Shortcut keyboard.</p>
+                    </button>
+
+
+                    <button class="category-card" data-category="word">
+                        <div class="category-icon">📝</div>
+
+                        <h3>Microsoft Word</h3>
+
+                        <p>Fitur dan shortcut Word.</p>
+                    </button>
+
+                </div>
+
+            </section>
+
+
+            <!-- QUESTION COUNT -->
+            <section class="settings-section">
+
+                <div>
+                    <p>PENGATURAN QUIZ</p>
+
+                    <h2>Pilih Jumlah Soal</h2>
+                </div>
+
+
+                <div class="question-count">
+
+                    <button class="count-btn" data-count="10">10 Soal</button>
+
+                    <button class="count-btn selected" data-count="20">20 Soal</button>
+
+                    <button class="count-btn" data-count="30">30 Soal</button>
+
+                    <button class="count-btn" data-count="50">50 Soal</button>
+
+                </div>
+
+
+                <button id="startQuiz" class="start-quiz-btn">
+                    Mulai Quiz 🎯
+                </button>
+
+            </section>
+
+        </section>
+
+
+        <!-- QUIZ AREA -->
+        <section id="quizArea" class="hidden">
+
+            <div class="quiz-top">
+
+                <div class="progress-info">
+                    <span id="questionNumber">Soal 1 / 20</span>
+
+                    <div class="progress-bar">
+                        <div id="progressFill"></div>
+                    </div>
+                </div>
+
+
+                <div class="score-box">
+                    ⭐ Skor:
+                    <span id="currentScore">0</span>
+                </div>
+
+            </div>
+
+
+            <div class="question-card">
+
+                <div class="question-category" id="questionCategory">
+                    HTML
+                </div>
+
+                <h2 id="questionText">
+                    Pertanyaan akan muncul di sini
+                </h2>
+
+
+                <div id="answerOptions" class="answer-options">
+                </div>
+
+
+                <button id="nextQuestion" class="next-btn" disabled>
+                    Selanjutnya →
+                </button>
+
+            </div>
+
+        </section>
+
+
+        <!-- RESULT -->
+        <section id="resultArea" class="hidden">
+
+            <div class="result-card">
+
+                <div class="result-icon">
+                    🏆
+                </div>
+
+                <p>QUIZ SELESAI</p>
+
+                <h2>Hasil Kamu</h2>
+
+                <div class="final-score">
+                    <span id="finalScore">0</span>
+                    <small>/ <span id="totalScore">20</span></small>
+                </div>
+
+                <h3 id="resultMessage">
+                    Kerja Bagus!
+                </h3>
+
+                <p id="resultDescription">
+                    Kamu sudah menyelesaikan quiz.
+                </p>
+
+
+                <div class="result-buttons">
+
+                    <button id="playAgain" class="play-again-btn">
+                        🔄 Main Lagi
+                    </button>
+
+                    <button id="backHome" class="home-btn">
+                        ← Pilih Kategori
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <footer>
+            <p>© 2026 ITLearn • Quiz</p>
+        </footer>
+
+    </main>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="js/questions.js"></script>
+    <script src="js/quiz.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,1351 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Belajar CSS | ITLearn</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="css/css.css">
+</head>
+
+<body>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+
+        <div class="sidebar-logo">
+
+            <div class="logo-icon">
+                &lt;/&gt;
+            </div>
+
+            <div>
+                <h2>ITLearn</h2>
+                <p>Belajar Dunia IT</p>
+            </div>
+
+        </div>
+
+
+        <nav class="menu">
+
+            <p class="menu-title">MENU UTAMA</p>
+
+            <a href="dashboard.html" class="menu-item">
+                <span>⌂</span>
+                Dashboard
+            </a>
+
+            <a href="coding.html" class="menu-item active">
+                <span>💻</span>
+                Coding
+            </a>
+
+            <a href="quiz.html" class="menu-item">
+                <span>📝</span>
+                Quiz
+            </a>
+
+
+            <p class="menu-title second-title">BELAJAR</p>
+
+            <a href="html.html" class="menu-item">
+                <span>🌐</span>
+                HTML
+            </a>
+
+            <a href="css.html" class="menu-item active-language">
+                <span>🎨</span>
+                CSS
+            </a>
+
+            <a href="javascript.html" class="menu-item">
+                <span>⚡</span>
+                JavaScript
+            </a>
+
+            <a href="python.html" class="menu-item">
+                <span>🐍</span>
+                Python
+            </a>
+
+            <a href="java.html" class="menu-item">
+                <span>☕</span>
+                Java
+            </a>
+
+            <a href="cpp.html" class="menu-item">
+                <span>➕</span>
+                C++
+            </a>
+
+            <a href="php.html" class="menu-item">
+                <span>🐘</span>
+                PHP
+            </a>
+
+            <a href="sql.html" class="menu-item">
+                <span>🗄️</span>
+                SQL
+            </a>
+
+        </nav>
+
+
+        <div class="sidebar-bottom">
+            <p>© 2026 ITLearn</p>
+        </div>
+
+    </aside>
+
+
+    <!-- MAIN CONTENT -->
+    <main class="main-content">
+
+
+        <!-- TOPBAR -->
+        <header class="topbar">
+
+            <div>
+                <p class="page-small-title">
+                    BELAJAR WEB DEVELOPMENT
+                </p>
+
+                <h1>CSS</h1>
+            </div>
+
+
+            <a href="coding.html" class="back-btn">
+                ← Kembali
+            </a>
+
+        </header>
+
+
+        <!-- HERO -->
+        <section class="language-hero">
+
+            <div class="hero-text">
+
+                <div class="language-badge">
+                    🎨 CSS
+                </div>
+
+                <h2>
+                    Buat Website
+                    Lebih Menarik
+                </h2>
+
+                <p>
+                    CSS digunakan untuk mengatur tampilan website.
+                    Mulai dari warna, font, layout, animasi,
+                    hingga membuat website responsive.
+                </p>
+
+                <a href="#dasar" class="start-btn">
+                    Mulai Belajar ↓
+                </a>
+
+            </div>
+
+
+            <div class="hero-logo">
+
+                <!-- Ganti dengan logo CSS milik kamu -->
+                <img src="assets/logo/css.png" alt="CSS Logo">
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================
+             LEVEL 1
+        ====================== -->
+
+        <div class="level-title" id="dasar">
+
+            <span>🟢</span>
+
+            <div>
+                <p>LEVEL 1</p>
+                <h2>CSS Dasar</h2>
+            </div>
+
+        </div>
+
+
+        <!-- 01 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>01</span>
+
+                <div>
+                    <p>PENGENALAN</p>
+                    <h2>Apa itu CSS?</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    CSS adalah singkatan dari Cascading Style Sheets.
+                    CSS digunakan untuk mengatur tampilan dan desain
+                    sebuah halaman HTML.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- 02 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>02</span>
+
+                <div>
+                    <p>PENGENALAN</p>
+                    <h2>Cara Menggunakan CSS</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    CSS dapat digunakan dengan tiga cara:
+                    inline CSS, internal CSS, dan external CSS.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- 03 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>03</span>
+
+                <div>
+                    <p>DASAR CSS</p>
+                    <h2>Struktur CSS</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+                <div class="code-box">
+
+                    <div class="code-header">
+                        <span>CSS</span>
+                    </div>
+
+<pre><code>selector {
+    property: value;
+}</code></pre>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 04 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>04</span>
+
+                <div>
+                    <p>DASAR CSS</p>
+                    <h2>CSS Selector</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    Selector digunakan untuk memilih elemen HTML
+                    yang ingin diberikan style.
+                </p>
+
+                <div class="code-box">
+
+                    <div class="code-header">
+                        <span>CSS</span>
+                    </div>
+
+<pre><code>p {
+    color: blue;
+}</code></pre>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 05 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>05</span>
+
+                <div>
+                    <p>SELECTOR</p>
+                    <h2>Class Selector</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+                <div class="code-box">
+
+                    <div class="code-header">
+                        <span>CSS</span>
+                    </div>
+
+<pre><code>.judul {
+    color: blue;
+}</code></pre>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 06 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>06</span>
+
+                <div>
+                    <p>SELECTOR</p>
+                    <h2>ID Selector</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>#judul {
+    color: red;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 07 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>07</span>
+
+                <div>
+                    <p>WARNA</p>
+                    <h2>Color</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    Property color digunakan untuk mengatur
+                    warna teks.
+                </p>
+
+<pre class="simple-code"><code>p {
+    color: blue;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 08 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>08</span>
+
+                <div>
+                    <p>BACKGROUND</p>
+                    <h2>Background Color</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>body {
+    background-color: lightblue;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 09 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>09</span>
+
+                <div>
+                    <p>TEXT</p>
+                    <h2>Font Family</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>p {
+    font-family: Arial;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 10 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>10</span>
+
+                <div>
+                    <p>TEXT</p>
+                    <h2>Font Size</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>h1 {
+    font-size: 32px;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================
+             LEVEL 2
+        ====================== -->
+
+        <div class="level-title">
+
+            <span>🔵</span>
+
+            <div>
+                <p>LEVEL 2</p>
+                <h2>Box Model</h2>
+            </div>
+
+        </div>
+
+
+        <!-- 11 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>11</span>
+
+                <div>
+                    <p>BOX MODEL</p>
+                    <h2>CSS Box Model</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+                <p>
+                    Setiap elemen HTML memiliki box model
+                    yang terdiri dari content, padding,
+                    border, dan margin.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- 12 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>12</span>
+
+                <div>
+                    <p>BOX MODEL</p>
+                    <h2>Width dan Height</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.box {
+    width: 200px;
+    height: 100px;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 13 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>13</span>
+
+                <div>
+                    <p>BOX MODEL</p>
+                    <h2>Padding</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.box {
+    padding: 20px;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 14 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>14</span>
+
+                <div>
+                    <p>BOX MODEL</p>
+                    <h2>Margin</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.box {
+    margin: 20px;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 15 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>15</span>
+
+                <div>
+                    <p>BOX MODEL</p>
+                    <h2>Border</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.box {
+    border: 2px solid blue;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 16 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>16</span>
+
+                <div>
+                    <p>BOX MODEL</p>
+                    <h2>Border Radius</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.box {
+    border-radius: 15px;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 17 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>17</span>
+
+                <div>
+                    <p>BOX MODEL</p>
+                    <h2>Box Shadow</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.box {
+    box-shadow:
+        0 5px 15px rgba(0,0,0,0.2);
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================
+             LEVEL 3
+        ====================== -->
+
+        <div class="level-title">
+
+            <span>🟣</span>
+
+            <div>
+                <p>LEVEL 3</p>
+                <h2>CSS Layout</h2>
+            </div>
+
+        </div>
+
+
+        <!-- 18 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>18</span>
+
+                <div>
+                    <p>LAYOUT</p>
+                    <h2>Display</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+                <div class="tag-grid">
+
+                    <div class="tag-card">
+                        <code>block</code>
+                        <p>Elemen memenuhi satu baris.</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>inline</code>
+                        <p>Elemen berada dalam satu baris.</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>flex</code>
+                        <p>Layout fleksibel.</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>grid</code>
+                        <p>Layout berbentuk grid.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- 19 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>19</span>
+
+                <div>
+                    <p>FLEXBOX</p>
+                    <h2>Flexbox</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.container {
+    display: flex;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 20 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>20</span>
+
+                <div>
+                    <p>FLEXBOX</p>
+                    <h2>Justify Content</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.container {
+    display: flex;
+
+    justify-content:
+        center;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 21 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>21</span>
+
+                <div>
+                    <p>FLEXBOX</p>
+                    <h2>Align Items</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.container {
+    display: flex;
+
+    align-items:
+        center;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 22 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>22</span>
+
+                <div>
+                    <p>FLEXBOX</p>
+                    <h2>Flex Direction</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.container {
+    display: flex;
+
+    flex-direction:
+        column;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 23 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>23</span>
+
+                <div>
+                    <p>GRID</p>
+                    <h2>CSS Grid</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.container {
+    display: grid;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 24 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>24</span>
+
+                <div>
+                    <p>GRID</p>
+                    <h2>Grid Gap</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.container {
+    display: grid;
+
+    gap: 20px;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 25 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>25</span>
+
+                <div>
+                    <p>POSITION</p>
+                    <h2>Position</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+                <div class="tag-grid">
+
+                    <div class="tag-card">
+                        <code>static</code>
+                        <p>Posisi normal.</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>relative</code>
+                        <p>Relatif dari posisi awal.</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>absolute</code>
+                        <p>Posisi bebas.</p>
+                    </div>
+
+                    <div class="tag-card">
+                        <code>fixed</code>
+                        <p>Tetap di layar.</p>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================
+             LEVEL 4
+        ====================== -->
+
+        <div class="level-title">
+
+            <span>🟠</span>
+
+            <div>
+                <p>LEVEL 4</p>
+                <h2>CSS Modern</h2>
+            </div>
+
+        </div>
+
+
+        <!-- 26 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>26</span>
+
+                <div>
+                    <p>MODERN CSS</p>
+                    <h2>Transition</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.button {
+    transition: 0.3s;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 27 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>27</span>
+
+                <div>
+                    <p>MODERN CSS</p>
+                    <h2>Transform</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.box:hover {
+    transform:
+        translateY(-10px);
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 28 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>28</span>
+
+                <div>
+                    <p>MODERN CSS</p>
+                    <h2>Animation</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>@keyframes gerak {
+
+    from {
+        transform:
+            translateX(0);
+    }
+
+    to {
+        transform:
+            translateX(100px);
+    }
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 29 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>29</span>
+
+                <div>
+                    <p>MODERN CSS</p>
+                    <h2>Hover Effect</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>button:hover {
+    background: blue;
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 30 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>30</span>
+
+                <div>
+                    <p>RESPONSIVE</p>
+                    <h2>Media Query</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>@media screen and
+(max-width: 768px) {
+
+    body {
+        background:
+            lightblue;
+    }
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 31 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>31</span>
+
+                <div>
+                    <p>MODERN CSS</p>
+                    <h2>CSS Variables</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>:root {
+
+    --primary: blue;
+
+}
+
+h1 {
+
+    color:
+        var(--primary);
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 32 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>32</span>
+
+                <div>
+                    <p>DESIGN</p>
+                    <h2>Gradient</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.box {
+
+    background:
+        linear-gradient(
+            90deg,
+            blue,
+            purple
+        );
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 33 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>33</span>
+
+                <div>
+                    <p>DESIGN</p>
+                    <h2>Opacity</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>.box {
+
+    opacity: 0.7;
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- 34 -->
+        <section class="content-section">
+
+            <div class="section-title">
+                <span>34</span>
+
+                <div>
+                    <p>IMAGE</p>
+                    <h2>Object Fit</h2>
+                </div>
+            </div>
+
+            <div class="content-card">
+
+<pre class="simple-code"><code>img {
+
+    width: 100%;
+
+    height: 300px;
+
+    object-fit: cover;
+
+}</code></pre>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================
+             PROJECT
+        ====================== -->
+
+        <div class="level-title project-title">
+
+            <span>🚀</span>
+
+            <div>
+                <p>LEVEL 5</p>
+                <h2>CSS Project</h2>
+            </div>
+
+        </div>
+
+
+        <section class="project-grid">
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    35
+                </div>
+
+                <span class="project-icon">
+                    🎨
+                </span>
+
+                <h3>Profile Card</h3>
+
+                <p>
+                    Buat sebuah kartu profil
+                    menggunakan CSS.
+                </p>
+
+                <div class="project-tags">
+                    <span>CSS</span>
+                    <span>Card</span>
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    36
+                </div>
+
+                <span class="project-icon">
+                    📱
+                </span>
+
+                <h3>Responsive Website</h3>
+
+                <p>
+                    Buat website yang dapat
+                    menyesuaikan layar HP.
+                </p>
+
+                <div class="project-tags">
+                    <span>Responsive</span>
+                    <span>CSS</span>
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    37
+                </div>
+
+                <span class="project-icon">
+                    🧭
+                </span>
+
+                <h3>Navigation Bar</h3>
+
+                <p>
+                    Buat navbar modern
+                    menggunakan Flexbox.
+                </p>
+
+                <div class="project-tags">
+                    <span>Flexbox</span>
+                    <span>Layout</span>
+                </div>
+
+            </article>
+
+
+            <article class="project-card">
+
+                <div class="project-number">
+                    38
+                </div>
+
+                <span class="project-icon">
+                    ✨
+                </span>
+
+                <h3>Animated Website</h3>
+
+                <p>
+                    Buat animasi sederhana
+                    menggunakan CSS.
+                </p>
+
+                <div class="project-tags">
+                    <span>Animation</span>
+                    <span>CSS</span>
+                </div>
+
+            </article>
+
+
+        </section>
+
+
+        <!-- QUIZ -->
+
+        <section class="practice-section">
+
+            <div class="practice-card">
+
+                <div>
+
+                    <p>UJI KEMAMPUAN</p>
+
+                    <h2>
+                        Sudah memahami CSS?
+                    </h2>
+
+                    <span>
+                        Coba quiz untuk menguji kemampuanmu.
+                    </span>
+
+                </div>
+
+
+                <a href="quiz.html" class="practice-btn">
+                    Mulai Quiz →
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- NEXT -->
+
+        <section class="next-section">
+
+            <p>MATERI SELANJUTNYA</p>
+
+            <a href="javascript.html">
+
+                <div>
+
+                    <span>⚡</span>
+
+                    <div>
+
+                        <h3>JavaScript</h3>
+
+                        <p>
+                            Pelajari cara membuat website
+                            menjadi lebih interaktif.
+                        </p>
+
+                    </div>
+
+                </div>
+
+                <strong>→</strong>
+
+            </a>
+
+        </section>
+
+
+        <!-- FOOTER -->
+
+        <footer>
+
+            <p>
+                © 2026 ITLearn • Belajar Dunia IT
+            </p>
+
+        </footer>
+
+
+    </main>
+
+</body>
+
+</html>
